@@ -1,0 +1,11 @@
+app:
+  API-KEY: fa8ecea2-bbb0-47c1-a7c8-83c4870171ab
+
+kakao:
+  api:
+    url: https://api.kakaobrain.com/v2/inference/karlo/t2i
+    key: ${KARLO_API_KEY}
+
+logging:
+  file:
+    name: ./log/image-prompter-analyzer.log
